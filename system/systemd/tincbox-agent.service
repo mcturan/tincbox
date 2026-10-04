@@ -1,0 +1,16 @@
+[Unit]
+Description=TincBox Hardware Telemetry & Pairing Agent
+After=network.target local-fs.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/tincbox
+ExecStart=/usr/bin/python3 /opt/tincbox/tincbox-agent.py
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
