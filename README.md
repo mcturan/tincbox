@@ -129,10 +129,19 @@ TincBox runs **TincOS**, a security-hardened, immutable Linux distribution built
 
 ---
 
+## 🔑 Hardware Root of Trust: TincKey Integration
+
+TincBox integrates natively with **[TincKey](https://key.tinc.one)** ([github.com/mcturan/tinckey](https://github.com/mcturan/tinckey)), an open-source biometric hardware security key:
+- **Instant Cryptographic Volume Unlock:** Insert your TincKey and tap the capacitive fingerprint sensor to automatically decrypt the LUKS2 encrypted storage without typing long passphrases.
+- **Physical Lockdown:** Removing TincKey immediately suspends elevated root privileges or unmounts sensitive enterprise databases.
+- **Offline Backup Sync:** Use TincKey Vault Pro's write-protected flash memory to safely carry encrypted disaster recovery archives.
+
+---
+
 ## 📦 Getting Started & Pre-Orders
 
 To learn more, explore interactive 3D mockups, join the waitlist, or pre-order a developer kit:
-👉 Visit: **[https://box.tinc.one](https://box.tinc.one)**
+👉 Visit: **[https://box.tinc.one](https://box.tinc.one)** & **[https://key.tinc.one](https://key.tinc.one)**
 
 ---
 
